@@ -1,0 +1,88 @@
+main{
+    margin: 0 20%;
+    padding-top: 15px;
+}
+body{
+    background: linear-gradient(#FEFEFE, #92b7d1);
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    font-family: 'Kalam', cursive;
+}
+.titulo{    
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.meet{
+    margin-right: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    background-color: #c8d1da;
+    color: #032136;
+}
+.paragrafo{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.card{
+    margin-bottom: 10%;
+    border-radius: 2%;
+}
+.titulo-meetus{
+    padding: 5%;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.carrossel{
+    padding-top: 25%;
+}
+
+.carousel-inner .carousel-item img {
+    opacity: 0.85; 
+}
+  
+
+h5{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: xx-large;
+    -webkit-text-stroke: 0.3px #000000;
+    text-rendering: 1px #fff;
+    font-size: 42px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+button{
+    border-radius: 10px;
+    margin: 5% 0;
+    width: 40%;
+    height: 40%;
+}
+
+button:hover{
+    text-transform: uppercase;
+}
+
+form{
+    padding: 15% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+footer{
+    text-align: center;
+}

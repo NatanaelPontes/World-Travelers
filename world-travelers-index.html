@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="world-travelers-index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Kalam:wght@700&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <title>World Travelers</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light" style="background-color: #72b4e4;">
+      <div class="container-fluid">
+        <span class="navbar-text fs-2">
+          <img src="icons8-planeta-terra-96.png" alt="Logo">
+          World Travelers
+        </span>
+        <button class="meet btn btn-primary" type="button">
+          <a href="nos-conheca.html" style="color: inherit; text-decoration: none;">Nos Conheça</a>
+        </button>        
+      </div>
+    </nav>
+    <main>
+      <h1 class="titulo">World Travelers: sua próxima viagem está aqui !</h1>
+      <p class="paragrafo">A World Travelers é a sua agência de viagens completa, oferecendo roteiros exclusivos para explorar o mundo. Com anos de experiência no mercado, estamos prontos para ajudá-lo a planejar a sua próxima aventura, seja um cruzeiro pelas ilhas do Caribe, uma viagem pela Europa ou um safári na África. Nossa equipe é composta por especialistas em viagens que conhecem cada destino em detalhes, garantindo que você tenha uma experiência autêntica e personalizada. Além disso, cuidamos de todos os detalhes da sua viagem, desde a reserva do voo até a escolha do hotel e o planejamento de atividades locais. Seja para uma viagem em família, uma aventura solo ou uma escapada romântica, a World Travelers tem tudo o que você precisa para tornar a sua viagem inesquecível. Entre em contato conosco hoje mesmo e comece a planejar a sua próxima aventura ao redor do mundo!</p>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" class="carrossel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="parque.jpg" class="d-block w-100" alt="Jardim Sabatini Madrid">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Desbrave todos os pontos turisticos que a Europa tem a oferecer !</h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="safari.jpg" class="d-block w-100" alt="Safari na Africa">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Faça um tour selvagem pelas savanas africanas</h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="petra.jpg" class="d-block w-100" alt="Petra na Jordania">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Conheça as paisagens de Petra, na Jordânia</h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form action="/processar-formulario" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br>
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea><br>
+        
+        <button type="submit">Enviar</button>
+      </form>
+      
+    </main>
+    <footer>
+      <p>Todos os direitos reservados por Copyright.</p>
+    </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
